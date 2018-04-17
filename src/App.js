@@ -1,13 +1,15 @@
-import React, { Component } from 'react';
-import Particles from 'react-particles-js';
 import Clarifai from 'clarifai';
-import Navigation from './components/Navigation/Navigation';
+import Particles from 'react-particles-js';
+import React, { Component } from 'react';
+
 import FaceRecognition from './components/FaceRecognition/FaceRecognition';
-import Logo from './components/Logo/Logo';
 import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
+import Logo from './components/Logo/Logo';
+import Navigation from './components/Navigation/Navigation';
+import Rank from './components/Rank/Rank';
 import Signin from './components/Signin/Signin';
 import Signup from './components/Signup/Signup';
-import Rank from './components/Rank/Rank';
+
 import './App.css';
 
 const app = new Clarifai.App({
